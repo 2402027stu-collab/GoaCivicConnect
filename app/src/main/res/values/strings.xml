@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Goa Civic Connect</string>
+    <string name="incident_reporting">Incident Reporting</string>
+    <string name="pay_taxes">Pay Taxes</string>
+    <string name="parking_availability">Parking Availability</string>
+    <string name="announcements">Announcements</string>
+    <string name="health_services">Health Services</string>
+    <string name="report_incident_description">Report potholes, street light issues, etc.</string>
+    <string name="pay_taxes_description">Securely pay property and utility taxes.</string>
+    <string name="parking_description">Find real-time parking spaces across Goa.</string>
+    <string name="announcements_description">Stay updated with latest government alerts.</string>
+    <string name="health_description">Locate clinics and book health appointments.</string>
+
+</resources>

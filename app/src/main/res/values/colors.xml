@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_blue">#1268E8</color>
+
+    <color name="dark_navy">#0D2347</color>
+
+    <color name="text_blue">#17345F</color>
+
+    <color name="muted_blue">#6B819F</color>
+
+    <color name="light_blue">#EAF5FF</color>
+
+    <color name="background">#F5FBFF</color>
+
+    <color name="green">#24945C</color>
+
+    <color name="purple">#7754C9</color>
+
+    <color name="footer">#071A35</color>
+
+</resources>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ==================== HEADER ==================== -->
+
+        <!-- ==================== HEADER ==================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:background="@android:color/white"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="155dp"
+                android:layout_height="65dp"
+                android:src="@drawable/goa_civic_logo"
+                android:scaleType="fitCenter"
+                android:contentDescription="Goa Civic Connect Logo" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Government of Goa"
+                android:textColor="@color/dark_navy"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <!-- ==================== MAIN CONTENT ==================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:background="@drawable/goa_background">
+
+            <!-- Citizen Services Badge -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  👥  CITIZEN SERVICES  "
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:textColor="@color/primary_blue"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@drawable/badge_background" />
+
+
+            <!-- Main Heading -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Making Goa Better,"
+                android:textColor="@color/dark_navy"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Together."
+                android:textColor="@color/primary_blue"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <!-- Description -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Report civic issues, track complaints and connect with government departments for a cleaner, safer and smarter Goa."
+                android:textColor="@color/text_blue"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp" />
+
+
+            <!-- ==================== FEATURES ==================== -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+
+                <!-- Feature 1 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:text="▣"
+                        android:textColor="@color/primary_blue"
+                        android:textSize="22sp"
+                        android:background="@drawable/circle_blue" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="14dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Report Issues"
+                            android:textColor="@color/dark_navy"
+                            android:textStyle="bold"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Potholes, garbage, water leakage, street lights and more."
+                            android:textColor="@color/muted_blue"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <!-- Feature 2 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:text="⌖"
+                        android:textColor="@color/green"
+                        android:textSize="24sp"
+                        android:background="@drawable/circle_green" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="14dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Track Complaints"
+                            android:textColor="@color/dark_navy"
+                            android:textStyle="bold"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Monitor the progress of your complaints easily."
+                            android:textColor="@color/muted_blue"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <!-- Feature 3 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:text="⌂"
+                        android:textColor="@color/purple"
+                        android:textSize="23sp"
+                        android:background="@drawable/circle_purple" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="14dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Connect Departments"
+                            android:textColor="@color/dark_navy"
+                            android:textStyle="bold"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Get help from the right government departments."
+                            android:textColor="@color/muted_blue"
+                            android:textSize="11sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- ==================== LOGIN CARD ==================== -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/loginCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="7dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="22dp">
+
+
+                    <!-- Login Logo -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:src="@drawable/goa_civic_logo"
+                            android:contentDescription="Goa Civic Connect" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginStart="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="GOA CIVIC CONNECT"
+                                android:textColor="@color/dark_navy"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Smart Public Issue Reporting &amp; Management System"
+                                android:textColor="@color/muted_blue"
+                                android:textSize="7sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <!-- Welcome -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="Welcome Back!"
+                        android:textColor="@color/dark_navy"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sign in to access your civic services"
+                        android:textColor="@color/muted_blue"
+                        android:textSize="11sp" />
+
+
+                    <!-- Email / Mobile -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="21dp"
+                        android:text="Email / Mobile Number"
+                        android:textColor="@color/text_blue"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@drawable/input_background"
+                        android:hint="Enter your email or mobile number"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:textSize="12sp" />
+
+
+                    <!-- Password Label -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Password"
+                            android:textColor="@color/text_blue"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvForgotPassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Forgot Password?"
+                            android:textColor="@color/primary_blue"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            android:clickable="true"
+                            android:focusable="true" />
+
+                    </LinearLayout>
+
+
+                    <!-- Password -->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/passwordLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        app:endIconMode="password_toggle">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:hint="Enter your password"
+                            android:inputType="textPassword"
+                            android:textSize="12sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <!-- Remember Me -->
+
+                    <CheckBox
+                        android:id="@+id/checkRemember"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:buttonTint="@color/primary_blue"
+                        android:text="Remember me"
+                        android:textColor="@color/muted_blue"
+                        android:textSize="11sp"
+                        android:checked="true" />
+
+
+                    <!-- Login Button -->
+
+                    <Button
+                        android:id="@+id/btnLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/login_button"
+                        android:text="Login   →"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+
+                    <!-- OR -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="#DCE6EF" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="12dp"
+                            android:text="OR"
+                            android:textColor="#91A4B7"
+                            android:textSize="9sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="#DCE6EF" />
+
+                    </LinearLayout>
+
+
+                    <!-- Google Button -->
+
+                    <Button
+                        android:id="@+id/btnGoogle"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/google_button"
+                        android:text="G   Continue with Google"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text_blue"
+                        android:textSize="11sp" />
+
+
+                    <!-- Create Account -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="17dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Don't have an account? "
+                            android:textColor="@color/muted_blue"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/tvCreateAccount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Create Account"
+                            android:textColor="@color/primary_blue"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            android:clickable="true"
+                            android:focusable="true" />
+
+                    </LinearLayout>
+
+
+                    <!-- Security Message -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:padding="12dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:background="@drawable/security_background">
+
+                        <TextView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:gravity="center"
+                            android:text="✓"
+                            android:textColor="@color/primary_blue"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:background="@drawable/security_icon" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:text="Your information is protected and securely handled with government-grade security."
+                            android:textColor="@color/muted_blue"
+                            android:textSize="8.5sp"
+                            android:lineSpacingExtra="2dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <!-- ==================== FOOTER ==================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/footer">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© 2026 Goa Civic Connect. All rights reserved."
+                android:textColor="#9EB3CA"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/tvFooterLinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Privacy Policy  |  Terms &amp; Conditions  |  Help &amp; Support"
+                android:textColor="#9EB3CA"
+                android:textSize="8.5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Facebook   𝕏   Instagram   YouTube"
+                android:textColor="#9EB3CA"
+                android:textSize="9sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

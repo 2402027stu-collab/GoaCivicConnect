@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/goa_civic_logo"
+        android:label="Goa Civic Connect"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoACivicConnect">
+
+        <!-- FIRST PAGE -->
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+
+        <!-- LOGIN PAGE -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
