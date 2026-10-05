@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Goa Background -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/goa_background"
+        android:scaleType="centerCrop"
+        android:alpha="0.85"
+        android:contentDescription="@null" />
+
+    <!-- Light overlay -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAF4F9"
+        android:alpha="0.80" />
+
+    <!-- Main Content -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="28dp">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/goa_civic_connect_logo_transparent"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:contentDescription="Goa Civic Connect Logo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Goa Civic Connect"
+                android:textColor="#003B64"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Choose your role"
+                android:textColor="#555555"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btnUser"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="40dp"
+                android:text="USER / CITIZEN"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#087FBE" />
+
+            <Button
+                android:id="@+id/btnAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="15dp"
+                android:text="ADMINISTRATOR"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#003F66" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

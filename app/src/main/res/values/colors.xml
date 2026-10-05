@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="goa_blue">#006BB6</color>
+    <color name="goa_dark_blue">#003B64</color>
+    <color name="goa_deep_blue">#002E50</color>
+
+    <color name="goa_green">#159447</color>
+    <color name="goa_orange">#F5A623</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="text_dark">#172B3A</color>
+    <color name="text_gray">#687784</color>
+
+    <color name="background">#F5F8FB</color>
+    <color name="light_blue">#EAF5FC</color>
+    <color name="border">#D9E5EC</color>
+
+</resources>
